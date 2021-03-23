@@ -1,21 +1,25 @@
-import logo from './logo.svg';
+import React from 'react'
+import logo from './destineqr.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Welcome to</h1>
+        <img src={logo} className="App-logo-altered" alt="logo" />
+        <h1>Destine | CodePower </h1>
+        <strong>~ David N Matu</strong>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to Kenyatekzone's main project: Destine Kenya
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://destine.co.ke"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          View Project
         </a>
       </header>
     </div>
