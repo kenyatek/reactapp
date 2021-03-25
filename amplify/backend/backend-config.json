@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "reactappa9051928": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

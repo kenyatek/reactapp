@@ -2,6 +2,8 @@ import React from 'react'
 import logo from './destineqr.png';
 import './App.css';
 
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
+
 function App() {
   return (
     <div className="App">
@@ -22,8 +24,10 @@ function App() {
           View Project
         </a>
       </header>
+      <h1>I have added Auth</h1>
+      <AmplifySignOut />
     </div>
   );
 }
 
-export default App;
+export default withAuthenticator(App);
